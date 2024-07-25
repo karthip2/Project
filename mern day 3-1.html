@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2{
+            color: blue;
+        }
+        h3{
+            color: black;
+        }
+        @media screen and (max-width:900px){
+            h2{
+                color:green;
+            }
+        }
+        @media screen and (max-width:500px){
+            h2{
+                color: brown;
+            }
+        }
+        @media screen and (min-width:700px){
+            h3{
+                color: darkorange;
+            } 
+        }
+        @media screen and (min-width:900px){
+            h3{
+                color:rgb(206, 46, 73);
+            } 
+        }
+        #it{
+            border: 2px solid black;
+            background-color: cadetblue;
+            height: 100px;
+            width: 600px;
+        }
+        @media screen and (max-width:900px){
+            #it{
+                background-color: deeppink;
+                width: 400px;
+            }
+        }
+        @media screen and (max-width:500px){
+            #it{
+                background-color: rgb(51, 73, 73);
+                width: 200px;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>WELCOME</h1>
+    <h2>WELCOME TO THE FOODIES WORLD</h2>
+    <h3>SCIENCE TECHNOLOGY</h3>
+    <div id="it"></div>
+</body>
+</html>
